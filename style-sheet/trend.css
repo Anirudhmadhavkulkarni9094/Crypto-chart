@@ -1,0 +1,57 @@
+.trending{
+    display: block;
+    padding: 2rem 4rem;
+    background: radial-gradient(#fff,rgba(118, 255, 189, 0.837));
+}
+.trend_coin{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 1rem 3rem;
+    background: radial-gradient(#fff,rgb(189, 197, 255));
+    border-radius: 40px;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.633); 
+}
+.trend_coin_title{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 1rem 3rem;
+    background: radial-gradient(#fff,rgb(97, 115, 255));
+    border-radius: 40px;
+    align-items: center;
+}
+.trend_coin:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+
+.images{
+    height: 40px;
+    text-align: center;
+}
+.coin_name{
+    width: 300px;
+    text-align: center;
+}
+.coin_price{
+    width: 200px;
+    text-align: center;
+}
+.coin_market{
+    width: 150px;
+    text-align: center;
+}
+.score{
+    width: 100px;
+    text-align: center;
+}
+
+.trending-title{
+    text-align: center;
+    margin: 2rem;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

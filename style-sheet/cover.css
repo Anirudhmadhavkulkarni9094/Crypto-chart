@@ -1,0 +1,39 @@
+#first{
+    display: flex;
+    padding: 5rem;
+    align-items: center;
+    text-align: center;
+    background: radial-gradient(#fff,rgba(57, 133, 255, 0.829));
+}
+
+.cover p{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    
+    padding: 1rem 2rem;
+    border-radius: 20rem;
+}
+.cover p:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.145); 
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+.explore{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 140, 140);
+    color: antiquewhite;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.633); 
+}
+.explore:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: rgba(255, 140, 140,0.75)
+
+}

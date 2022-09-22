@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infomatix</title>
+    <link rel="stylesheet" href="style-sheet/nav-bar.css">
+    <link rel="stylesheet" href="style-sheet/cover.css">
+    <link rel="stylesheet" href="style-sheet/coin-info.css">
+    <link rel="stylesheet" href="style-sheet/trend.css">
+    <link rel="stylesheet" href="style-sheet/login.css">
+    <link rel="stylesheet" href="style-sheet/about.css">
+    <link rel = "icon" href = 
+"img\cover\logo.png" 
+        type = "image/x-icon">
+</head>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+<body>
+    <!-- nav bar -->
+    <div class="nav-bar">
+        <div class="logo">
+            <img src="img/cover/logo.png" alt="" height="60px">
+        </div>
+        <div class="nav-link">
+            <ul>
+                <a href="#first"><li>Home</li></a>
+                <a href="#second"><li>Popularity</li></a>
+                <a href="#third"><li>Performance</li></a>
+                <a href="#four"><li>About us</li></a>
+                <button class="reg" id="login">login</button>
+                <button class="reg" id="signup">signup</button>
+            </ul>
+        </div>
+    </div>
+    <div class="form" id='form'>
+
+    </div>
+    <div id="blur">
+        <section id="first">
+            <div class="cover">
+                <p>
+                    Cryptocurrency is a digital payment system that doesn't rely on banks to verify transactions. It’s a peer-to-peer system that can enable anyone anywhere to send and receive payments. Instead of being physical money carried around and exchanged in the real world, cryptocurrency payments exist purely as digital entries to an online database describing specific transactions. When you transfer cryptocurrency funds, the transactions are recorded in a public ledger. Cryptocurrency is stored in digital wallets.
+                </p>
+                <a href="#second"><button class="explore">Explore &#8599;</button></a>
+            </div>
+            <div class="cover-img">
+                <img src="img/cover/cover-photo.png" alt="">
+            </div>
+        </section>
+        <section id="second">
+            <div class="popular">
+                <h1 class="popularity">
+                    &#x2752 POPULAR CRYPTOCURRENCIES
+                </h1>
+                <div class="col1">
+                    <div class="coin">
+                        <div class="img">
+                            <img src="img/coins/bit-coin.png" alt="" class="image">
+                        </div>
+                        <div class="coin-det">
+                            <h1 class="price">$<span id="bitcoin"></span></h1>
+                            <h3 class="coin-name">BITCOIN</h3>
+                        </div>
+                    </div>
+                    <div class="coin">
+                        <div class="img">
+                            <img src="img/coins/doge-coin.png" alt="" class="image">
+                        </div>
+                        <div class="coin-det">
+                            <h1 class="price">$<span id="dogecoin"></span></h1>
+                            <h3 class="coin-name">DOGECOIN</h3>
+                        </div>
+                    </div>
+                    <div class="coin">
+                        <div class="img">
+                            <img src="img/coins/ethereum-classic.png" alt="" class="image">
+                        </div>
+                        <div class="coin-det">
+                            <h1 class="price">$<span id='eth-cls'></span></h1>
+                            <h3 class="coin-name">ETHEREUM-CLASSIC</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col1">
+                    <div class="coin">
+                        <div class="img">
+                            <img src="img/coins/ethereum.png" alt="" class="image">
+                        </div>
+                        <div class="coin-det">
+                            <h1 class="price">$<span id='eth'></h1>
+                            <h3 class="coin-name">ETHEREUM</h3>
+                        </div>
+                    </div>
+                    <div class="coin">
+                        <div class="img">
+                            <img src="img/coins/polygen.png" alt="" class="image">
+                        </div>
+                        <div class="coin-det">
+                            <h1 class="price">$<span id="polygen"></h1>
+                            <h3 class="coin-name">POLYGEN</h3>
+                        </div>
+                    </div>
+                    <div class="coin">
+                        <div class="img">
+                            <img src="img/coins/XRP.png" alt="" class="image">
+                        </div>
+                        <div class="coin-det">
+                            <h1 class="price">$<span id='xrp'></span></h1>
+                            <h3 class="coin-name">XRP</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section id="third">
+            <div class="trending" id="trending">
+                <div class="trending-title">
+                    <h1>📈📈TRENDING📉📉📊</h1>
+                </div>
+                <div class="trend_coin_title" id="trend_coin">
+                    <h1>ICON</h1>
+                    <h1 class="coin_name">NAME</h1>
+                    <h1 class="coin_market">Market Cap</h1>
+                    <h1 class="coin_price">Coin-Price</h1>
+                    <h1 class="score">Score</h1>
+                </div>
+            </div>
+    </div>
+    </section>
+    <section id="four">
+        <div class="about-us">
+            <div class="details">
+                <p class="address">2884, 1st Floor, 14th Main Rd, E block, 2nd Stage, Rajajinagar, Bengaluru, Karnataka 560010</p>
+            </div>
+            <div class="career">
+                <ul>
+                    <a href=""><li>Career</li></a>
+                    <a href=""><li>Help and Support</li></a>
+                    <a href=""><li>Blog</li></a>
+                    <a href=""><li>Affiliate</li></a>
+                    <a href=""><li>Investors</li></a>
+                </ul>
+            </div>
+            <div class="terms">
+                <ul>
+                    <a href=""><li>Terms</li></a>
+                    <a href=""><li>Privacy policy</li></a>
+                    <a href=""><li>Cookie settings</li></a>
+                    <a href=""><li>Sitemap</li></a>
+                    <a href=""><li>Accessibility statement</li></a>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="script-file/trending.js"></script>
+    <script src="script-file/popularity.js"></script>
+    <script src="script-file/login.js"></script>
+    <script src="script-file/signup.js"></script>
+</body>
+
+</html>

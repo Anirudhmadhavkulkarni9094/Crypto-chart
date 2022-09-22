@@ -1,0 +1,27 @@
+.about-us{
+    display: flex;
+    padding: 3rem 10rem;
+    justify-content: space-between;
+    background-color: black;
+    color: #ffff;
+
+}
+
+.address{
+    width: 200px;
+    line-height: 3rem;
+}
+
+.career ul li{
+    display: block;
+    margin: 1rem;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+}
+.terms ul li{
+    display: block;
+    margin: 1rem;
+    color: #ffff;
+    font-size: 20px;
+}
